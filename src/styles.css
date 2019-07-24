@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+body {
+  padding-top: 54px;
+  background-color: aliceblue;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.jumbotron-fluid {
+  margin-top: 1.5rem!important;
+}
+
+.jumbo-height {
+  background: linear-gradient(black, transparent 60%),
+  url('./assets/images/jumbotronImage.jpg');
+  background-size:cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 440px;
+  max-height: 430px;
+  color: #fff;
+}

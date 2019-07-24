@@ -1,0 +1,5 @@
+<div class="dropdown-menu" aria-labelledby="navbarDropdown" *dropdownMenu>
+    <a class="dropdown-item" *ngFor="let c of categories" [routerLink]="['/category', c.Id ]">{{c.Name}}</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" [routerLink]="['/products']">All</a>
+</div>
